@@ -13,5 +13,4 @@ and will be redirected to a new link where the trojan is stored.
 This trojan file is created by editing 'NAME' within trojan_filestrip so that it can open the correct
 executable at runtime. The executable is combined with trojan_filestrip through PyInstaller.
 
-Once the user runs the trojan, the real file is opened in the temp directory and a backdoor is generated. 
-BackdoorClient is not provided in this project.
+Once the user runs the trojan, the real file is opened in the temp directory and a backdoor is generated.
